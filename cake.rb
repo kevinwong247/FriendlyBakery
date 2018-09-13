@@ -1,6 +1,6 @@
-class Cookie < Pastry
+class Cake < Pastry
     attr_accessor :name, :description, :price
     def initialize(name, description, price)
-      super(name, description, price)
-    end
+      super()
+  end
 end
