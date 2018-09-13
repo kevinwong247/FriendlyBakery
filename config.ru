@@ -1,2 +1,2 @@
-require './friendlybakery'
+require 'app'
 run Sinatra::Application
