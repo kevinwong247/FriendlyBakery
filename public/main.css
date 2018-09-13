@@ -1,0 +1,61 @@
+.mynav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: brown lighten-3;
+}
+.mynav ul {
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+      
+}
+.mynav li{
+    display:inline-block;
+    text-align:center;
+}
+.mynav a{
+    display:inline-block;
+    padding:30px;
+}
+.mynav li:hover{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #bcaaa4; 
+    display:inline-block;
+}
+h5 {
+    text-align:center;
+}
+
+.centerpics {
+    border:1px solid black;
+    border-width:1px 0;
+    display: block;
+    margin:0;
+    padding:10px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+section {
+    position: sticky;
+}
+body {
+    background-image: url(https://previews.123rf.com/images/appler/appler1301/appler130100018/17605662-hand-drawing-background-with-coffee-sweets-and-pastry.jpg)
+}
